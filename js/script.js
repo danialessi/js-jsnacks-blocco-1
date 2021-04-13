@@ -142,7 +142,6 @@
 // seleziono ogni zucchina dell'array con ciclo for 
     for (var i = 0; i < arrayZucchine.length; i++) {
         var thisZucchina = arrayZucchine[i];
-        // console.log(thisZucchina);
 
         // se le zucchine misurano meno di 15 pushale nell'array zucchine piccole, altrimenti in quelle grandi
             if (thisZucchina.lunghezza < 15) {
@@ -162,7 +161,6 @@
 // ciclo array zucchine piccole per ottenere la singola zucchina piccola
     for (var j = 0; j < arrayZucchinePiccole.length; j++) {
         var thisZucchinaPiccola = arrayZucchinePiccole[j];
-        // console.log(thisZucchinaPiccola);
 
         sommaPesoPiccole = sommaPesoPiccole + thisZucchinaPiccola.peso;
     }
@@ -173,9 +171,8 @@
 
 // ciclo array zucchine piccole per ottenere la singola zucchina piccola
     for (var k = 0; k < arrayZucchineGrandi.length; k++) {
-    var thisZucchinaGrande = arrayZucchineGrandi[k];
-    // console.log(thisZucchinaGrande);
+        var thisZucchinaGrande = arrayZucchineGrandi[k];
 
-    sommaPesoGrandi = sommaPesoGrandi + thisZucchinaGrande.peso;
+        sommaPesoGrandi = sommaPesoGrandi + thisZucchinaGrande.peso;
     }
     console.log('peso zucchine grandi: ', sommaPesoGrandi);
