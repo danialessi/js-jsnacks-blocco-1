@@ -153,8 +153,8 @@
     function objectsWeightSum (array) {
         var sum = 0;
 
-        for (var j = 0; j < array.length; j++) {
-            var thisElement = array[j];
+        for (var i = 0; i < array.length; i++) {
+            var thisElement = array[i];
             
             // faccio la somma del peso di ogni zucchina
                 sum = sum + thisElement.peso;
